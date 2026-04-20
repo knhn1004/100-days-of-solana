@@ -1,0 +1,7 @@
+{
+  "name": "day001-generate-a-keypair",
+  "type": "module",
+  "dependencies": {
+    "@solana/kit": "^6.8.0"
+  }
+}
