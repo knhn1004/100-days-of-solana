@@ -1,0 +1,7 @@
+{
+  "name": "day002-persistent-wallet",
+  "type": "module",
+  "dependencies": {
+    "@solana/kit": "^6.8.0"
+  }
+}

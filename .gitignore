@@ -174,3 +174,10 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 .vscode
+
+# Solana keypairs — never commit
+wallet.json
+*.keypair.json
+
+# Playwright MCP workspace
+.playwright-mcp/

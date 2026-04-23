@@ -19,3 +19,5 @@ Scripts use `@solana/kit`. Run with **Node**, not Bun — `@solana/rpc` uses `se
 | Day | Topic |
 |-----|-------|
 | [001](./day001-generate-a-keypair) | Generate a keypair, airdrop devnet SOL, check balance |
+| [002](./day002-persistent-wallet) | Persist keypair to JSON, reload across runs, check balance |
+| [003](./day003-sol-and-lamports) | SOL vs lamports, bigint balance math, inspect tx fees |
