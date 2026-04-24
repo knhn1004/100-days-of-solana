@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 004 — Connect a Browser Wallet</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main id="app">
+      <header>
+        <h1>Day 004 — Connect a Browser Wallet</h1>
+        <p class="sub">Wallet Standard · devnet · <code>@solana/kit</code></p>
+      </header>
+
+      <section id="status" class="status" role="status" aria-live="polite">
+        Scanning for installed Solana wallets&hellip;
+      </section>
+
+      <section id="wallet-list" class="wallet-list" hidden>
+        <h2>Pick a wallet</h2>
+        <ul id="wallets"></ul>
+      </section>
+
+      <section id="connected" class="connected" hidden>
+        <h2 id="connected-name">—</h2>
+        <dl>
+          <dt>Address</dt>
+          <dd><code id="address">—</code></dd>
+          <dt>Balance</dt>
+          <dd id="balance">—</dd>
+        </dl>
+        <div class="row">
+          <button id="refresh" type="button">Refresh balance</button>
+          <button id="disconnect" type="button" class="ghost">Disconnect</button>
+        </div>
+      </section>
+
+      <section id="error" class="error" hidden></section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
